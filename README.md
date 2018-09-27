@@ -1,3 +1,8 @@
+---
+
+
+---
+
 <p>These commands and programs were tried using a zorin os core live usb<br>
 your mileage may vary</p>
 <h1 id="installing-kotlin">Installing Kotlin</h1>
@@ -17,9 +22,10 @@ hello.kt</p>
     }
 </code></pre>
 <p>Now we test if it works<br>
-First we need to compile it to jar file<br>
-kotlinc  hello.kt  -include-runtime  -d  hello.jar<br>
-We get this error</p>
+First we need to compile it to jar file</p>
+<pre><code>   kotlinc  hello.kt  -include-runtime  -d  hello.jar
+</code></pre>
+<p>We get this error</p>
 <pre><code> /home/zorin/.sdkman/candidates/kotlin/current/bin/kotlinc: line 74: java: command not found
 </code></pre>
 <p>We need to install java next</p>
