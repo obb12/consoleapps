@@ -1,8 +1,3 @@
----
-
-
----
-
 <p>These commands and programs were tried using a zorin os core live usb<br>
 your mileage may vary</p>
 <h1 id="installing-kotlin">Installing Kotlin</h1>
