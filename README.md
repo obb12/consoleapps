@@ -27,12 +27,13 @@ kotlinc  hello.kt  -include-runtime  -d  hello.jar<br>
 We get this error</p>
 <pre><code> /home/zorin/.sdkman/candidates/kotlin/current/bin/kotlinc: line 74: java: command not found
 </code></pre>
-<p>We need to install java next<br>
-sudo add-apt-repository ppa:webupd8team/java<br>
-sudo apt-get update<br>
-sudo apt-get install<br>
-sudo apt install oracle-java8-installer<br>
-<img src="https://preview.ibb.co/daRWu9/Screenshot_from_2018_09_27_15_34_13.png" alt="java8-license"><br>
+<p>We need to install java next</p>
+<pre><code>sudo add-apt-repository ppa:webupd8team/java 
+sudo apt-get update 
+sudo apt-get install
+sudo apt install oracle-java8-installer
+</code></pre>
+<p><img src="https://preview.ibb.co/daRWu9/Screenshot_from_2018_09_27_15_34_13.png" alt="java8-license"><br>
 You get presented by this license agreement<br>
 Now we run the compilation again</p>
 <pre><code>kotlinc hello.kt -include-runtime -d hello.jar
