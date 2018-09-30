@@ -28,7 +28,6 @@ First we need to compile it to jar file</p>
 <p>We need to install java next</p>
 <pre><code>sudo add-apt-repository ppa:webupd8team/java 
 sudo apt-get update 
-sudo apt-get install
 sudo apt install oracle-java8-installer
 </code></pre>
 <p><img src="https://preview.ibb.co/daRWu9/Screenshot_from_2018_09_27_15_34_13.png" alt="java8-license"><br>
